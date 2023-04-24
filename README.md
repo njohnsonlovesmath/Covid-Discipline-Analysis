@@ -1,1 +1,8 @@
-# Covid-Discipline-Analysis
+# Covid Discipline Analysis
+Schools across the nation are experiencing a change in the quantity and quality of disciplinary incidences since schools were forced to shut down from Covid. At the end of the 2019-2020 school year and into the 2020-2021 school year, schools were forced to develop and implement a fully online or hybrid model of education. Most schools, especially schools in Florida, returned to full time instruction for the 2021-2022 school year, and quickly administrators began to notice a change in the typical disciplinary incidences.
+
+This projects seeks to discover the primary differences in behavior post-Covid of students in Florida and which behavioral incidences contributed the most to a nearly 30% increase in incidences post-Covid. By recognizing which specific behaviors are directly correlated and account for such a drastic increase, administrators can begin to implement policies and strategies to combat these behaviors, hopefully developing a more safe, educationally friendly environment for students.
+
+# Methodologies
+In this project, I downloaded public discipline reports from the FLDOE's website. I excluded the school years of 2019-2020 and 2020-2021, where most schools were virtual or operating in a hybrid model and discipline would not occur or be tracked in the same way. I then sorted and cleaned the data using python to create a single dataframe to include school years 2010-2019 and 2021-2022 of discipline incidences across 25 different categories. Some categories were omitted (homicides) due to lack of data, while other categories were combined (aggravated battery to battery). 
+
